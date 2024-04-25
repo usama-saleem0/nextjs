@@ -1,113 +1,75 @@
 import Image from "next/image";
+import '../css/hero.css'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+
+    <div>
+    
+    <header>
+     <div className='header-main'>
+     <div className='header-logo'>
+        <img src="/images/fire.png" alt="Description of the image" />
         </div>
-      </div>
+        
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <div className='header-ul'>
+            <ul>
+                <li>about</li>
+                <li>points</li>
+                <li>waitlist</li>
+            </ul>
+        </div>
+     </div>
+    </header>
+        <section className='Animated '>
+       
+        <div className='main-Animated'>
+        <div className='badal'>
+        <img src="/images/badal.png" alt="Description of the image" />
+        <img src="/images/badal2.png" alt="Description of the image" />
+        <img src="/images/badal.png" alt="Description of the image" />
+        <img src="/images/badal2.png" alt="Description of the image" />
+        <img src="/images/badal.png" alt="Description of the image" />
+        <img src="/images/badal2.png" alt="Description of the image" />
+        <img src="/images/badal.png" alt="Description of the image" />
+        <img src="/images/badal2.png" alt="Description of the image" />
+        <img src="/images/badal.png" alt="Description of the image" />
+        <img src="/images/badal2.png" alt="Description of the image" />
+        
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+        </div>
+        <div className='contunir'>
+            <div className='Animated-tital'>
+                <h3>gamble for free</h3>
+                <h2>earn points</h2>
+                <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+  <path d="M15.7492 14.6252H17.9994V16.8748H16.8743V18H14.6247V15.7503H13.4995V13.5H15.7492V14.6252ZM2.24962 14.6252H0V16.8748H1.12511V18H3.37473V15.7503H4.49985V13.5H2.25023V14.6252H2.24962ZM13.4995 4.5H14.6247V5.62515H15.7498V11.2503H14.6247V12.3755H12.375V14.6252H11.2499V13.5H10.1248V15.7503H7.87458V13.5H6.74947V14.6252H5.62435V12.3755H3.37473V11.2503H2.24962V5.62515H3.37473V4.5H4.49985V3.37485H5.62496V2.24969H12.375V3.37485H13.5002V4.5H13.4995ZM7.87458 10.1252V7.87546H6.74947V6.75031H4.49985V7.87546H3.37473V10.1252H4.49985V11.2503H6.74947V10.1252H7.87458ZM13.4995 7.87485V6.7497H11.2499V7.87485H10.1248V10.1245H8.99969V11.2497H7.87458V12.3748H10.1248V10.1245H11.2499V11.2497H13.4995V10.1245H14.6247V7.87485H13.4995ZM4.49985 3.37485V2.24969H3.37473V0H1.12511V1.12515H0V3.37485H2.24962V4.5H3.37473V3.37485H4.49985ZM16.8743 1.12515V0H14.6247V2.24969H13.4995V3.37485H14.6247V4.5H15.7498V3.37485H18V1.12515H16.8749H16.8743Z" fill="#FF5E4F"/>
+</svg> Click LAUNCH APP</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+  <path d="M15.7492 14.6252H17.9994V16.8748H16.8743V18H14.6247V15.7503H13.4995V13.5H15.7492V14.6252ZM2.24962 14.6252H0V16.8748H1.12511V18H3.37473V15.7503H4.49985V13.5H2.25023V14.6252H2.24962ZM13.4995 4.5H14.6247V5.62515H15.7498V11.2503H14.6247V12.3755H12.375V14.6252H11.2499V13.5H10.1248V15.7503H7.87458V13.5H6.74947V14.6252H5.62435V12.3755H3.37473V11.2503H2.24962V5.62515H3.37473V4.5H4.49985V3.37485H5.62496V2.24969H12.375V3.37485H13.5002V4.5H13.4995ZM7.87458 10.1252V7.87546H6.74947V6.75031H4.49985V7.87546H3.37473V10.1252H4.49985V11.2503H6.74947V10.1252H7.87458ZM13.4995 7.87485V6.7497H11.2499V7.87485H10.1248V10.1245H8.99969V11.2497H7.87458V12.3748H10.1248V10.1245H11.2499V11.2497H13.4995V10.1245H14.6247V7.87485H13.4995ZM4.49985 3.37485V2.24969H3.37473V0H1.12511V1.12515H0V3.37485H2.24962V4.5H3.37473V3.37485H4.49985ZM16.8743 1.12515V0H14.6247V2.24969H13.4995V3.37485H14.6247V4.5H15.7498V3.37485H18V1.12515H16.8749H16.8743Z" fill="#FF5E4F"/>
+</svg> Connect your wallet</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+  <path d="M15.7492 14.6252H17.9994V16.8748H16.8743V18H14.6247V15.7503H13.4995V13.5H15.7492V14.6252ZM2.24962 14.6252H0V16.8748H1.12511V18H3.37473V15.7503H4.49985V13.5H2.25023V14.6252H2.24962ZM13.4995 4.5H14.6247V5.62515H15.7498V11.2503H14.6247V12.3755H12.375V14.6252H11.2499V13.5H10.1248V15.7503H7.87458V13.5H6.74947V14.6252H5.62435V12.3755H3.37473V11.2503H2.24962V5.62515H3.37473V4.5H4.49985V3.37485H5.62496V2.24969H12.375V3.37485H13.5002V4.5H13.4995ZM7.87458 10.1252V7.87546H6.74947V6.75031H4.49985V7.87546H3.37473V10.1252H4.49985V11.2503H6.74947V10.1252H7.87458ZM13.4995 7.87485V6.7497H11.2499V7.87485H10.1248V10.1245H8.99969V11.2497H7.87458V12.3748H10.1248V10.1245H11.2499V11.2497H13.4995V10.1245H14.6247V7.87485H13.4995ZM4.49985 3.37485V2.24969H3.37473V0H1.12511V1.12515H0V3.37485H2.24962V4.5H3.37473V3.37485H4.49985ZM16.8743 1.12515V0H14.6247V2.24969H13.4995V3.37485H14.6247V4.5H15.7498V3.37485H18V1.12515H16.8749H16.8743Z" fill="#FF5E4F"/>
+</svg> Enter your invite code</li>
+                </ul>
+                    <div className='Animated-btn-box'> 
+                    <button className='launch'>launch app</button>
+                    <button>learn more</button>
+                    </div>
+            </div>
+        </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+        <div className='play'>
+        <img   src="/images/hello.png" alt="Description of the image" />
+        <img className='blinker'  src="/images/play2.png" alt="Description of the image" />
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+        </div>
+        </div>
+        </section>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
+   
   );
 }

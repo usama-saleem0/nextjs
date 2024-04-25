@@ -1,0 +1,301 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./css/hero.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./css/hero.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./css/hero.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+
+  @font-face {
+    font-family: 'Pixeboy';
+    src: url('/font/Pixeboy.ttf') format('truetype'); 
+}
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section.Animated {
+    width: 100%;
+    background-color: #05050A;
+    height: 99vh;
+    position: relative;
+}
+
+.main-Animated {
+    width: 100%;
+}
+
+.badal {
+    width: 100%;
+    height: 60vh;
+}
+
+
+
+.badal {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.badal img {
+    width: 150px; /* Adjust the width of the images as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between images */
+}
+
+/* Keyframes for animation */
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Apply animation */
+.badal img {
+    animation: marquee 10s linear infinite; /* Adjust duration as needed */
+}
+
+.badal img {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+header {
+    width: 100%;
+    padding: 2%;
+    position: absolute;
+    z-index: 999;
+}
+
+.header-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-ul {
+    width: 20%;
+}
+
+.header-ul ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.header-ul ul li {
+    list-style: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "GohuFont 14 Nerd Font";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21.647px; /* 135.294% */
+    text-transform: uppercase;
+}
+
+.contunir {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    z-index: 999;
+}
+
+.Animated-tital {
+    width: 311px;
+}
+
+.Animated-tital h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Pixeboy";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; /* 133.333% */
+}
+
+.Animated-tital  h2 {
+    color: #4AF5D3;
+    text-align: center;
+    font-family: 'Pixeboy';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; /* 100% */
+}
+
+.Animated-tital ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 0px 30px  0px;
+}
+/* .play img {
+    width: 100%;
+} */
+.Animated-tital ul li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    color: #FFF;
+    font-family: "GohuFont 14 Nerd Font";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+}
+
+
+
+.Animated-tital ul li svg {
+    width: 22px;
+    height: 22px;
+}
+
+.play {
+    width: 100%;
+    /* position: absolute; */
+    /* bottom: 0px; */
+    /* height: 100vh; */
+}
+
+.Animated-btn-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.Animated-btn-box button {
+    border-radius: 6px;
+    border: 1px solid #410DFF;
+    background: rgba(65, 13, 255, 0.25);
+    box-shadow: 0px 0px 3px 0px #410DFF;
+    color: #FFF;
+    text-align: center;
+    font-family: "GohuFont 14 Nerd Font";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; /* 131.789% */
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0px;
+    transition: 0.5s;
+    width: 40%;
+}
+
+button.launch {
+    border-radius: 6px;
+    border: 1px solid #4AF5D3 !important;
+    background: rgba(74, 245, 211, 0.25) !important;
+    box-shadow: 0px 0px 3px 0px #4AF5D3 !important;
+}
+
+
+
+button.launch:hover {
+    border-radius: 6px;
+    border: 1px solid #FF5E4F !important;
+    color: #FF5E4F !important;
+    background: #4AF5D3 !important;
+    box-shadow: 0px 0px 3px 0px #4AF5D3 !important;
+}
+
+.Animated-btn-box button:hover {
+    border-radius: 6px;
+    border: 1px solid #4AF5D3;
+    background: #410DFF ;
+    color:#4AF5D3 ;
+    box-shadow: 0px 0px 3px 0px #410DFF;
+}
+body{
+    background-color: #05050A;
+}
+.play img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.blinker {
+   
+    animation: blink 1.5s infinite alternate; 
+  }
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+@media screen and (max-width: 1440px){
+    .Animated-tital h3 {
+        font-size: 35px;
+        text-align: left;
+    }
+    
+    .Animated-tital h2 {
+        font-size: 38px;
+        line-height: 25px;
+        text-align: left;
+    }
+    
+    .Animated-tital ul li {
+        font-size: 14px;
+        gap: 8px;
+        align-items: center;
+    }
+    
+    .Animated-tital ul li svg {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .contunir {
+        width: 80%;
+        top: 12%;
+    }
+    
+    .Animated-btn-box button {
+        width: 32%;
+        padding: 8px 0px;
+        font-size: 10px;
+    }
+    
+    .Animated-tital ul {
+        padding: 8px 0px 10px 0px;
+    }
+    
+    .Animated-btn-box {
+        gap: 15px;
+    }
+}
+
