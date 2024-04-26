@@ -27,6 +27,9 @@ export default function Home() {
         <div className='main-Animated'>
         <div className='badal'>
         <img src="/images/badalgo.png" alt="Description of the image" />
+        <img src="/images/badalgo.png" alt="Description of the image" />
+        <img src="/images/badalgo.png" alt="Description of the image" />
+        <img src="/images/badalgo.png" alt="Description of the image" />
         {/* <img src="/images/badal2.png" alt="Description of the image" />
         <img src="/images/badal.png" alt="Description of the image" />
         <img src="/images/badal2.png" alt="Description of the image" />
