@@ -7,6 +7,9 @@
 /*!**********************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./css/hero.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./css/hero.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
 
   @font-face {
     font-family: 'Pixeboy';
@@ -31,11 +34,6 @@ section.Animated {
 .badal {
     width: 100%;
     height: 60vh;
-}
-
-
-
-.badal {
     white-space: nowrap;
     overflow: hidden;
 }
@@ -60,9 +58,6 @@ section.Animated {
 /* Apply animation */
 .badal img {
     animation: marquee 10s linear infinite; /* Adjust duration as needed */
-}
-
-.badal img {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -248,6 +243,30 @@ body{
    
     animation: blink 1.5s infinite alternate; 
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @keyframes blink {
     0% {
       opacity: 1;
@@ -256,12 +275,180 @@ body{
       opacity: 0;
     }
   }
-@media screen and (max-width: 1440px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.glitch {
+    position: relative;
+    z-index: 1;
+    animation: shift 1s ease-in-out infinite alternate;
+  }
+  
+  .glitch:before,
+  .glitch:after {
+    display: block;
+    content: attr(data-glitch);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+  }
+  
+  .glitch:before {
+    animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: #f68272;
+    z-index: -1;
+  }
+
+  
+  .glitch:after {
+    animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: #4AF5D3;
+    z-index: -2;
+  }
+  
+  @keyframes glitch {
+    0% {
+      transform: translate(0);
+    }
+  
+    20% {
+      transform: translate(-3px, 3px);
+    }
+  
+    40% {
+      transform: translate(-3px, -3px);
+    }
+  
+    60% {
+      transform: translate(3px, 3px);
+    }
+  
+    80% {
+      transform: translate(3px, -3px);
+    }
+  
+    to {
+      transform: translate(0);
+    }
+  }
+  
+  @keyframes shift {
+    0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+      transform: skewX(0deg);
+    }
+  
+    41% {
+      transform: skewX(10deg);
+    }
+  
+    42% {
+      transform: skewX(-10deg);
+    }
+  
+    59% {
+      transform: skewX(40deg) skewY(10deg);
+    }
+  
+    60% {
+      transform: skewX(-40deg) skewY(-10deg);
+    }
+  
+    63% {
+      transform: skewX(10deg) skewY(-5deg);
+    }
+  
+    70% {
+      transform: skewX(-50deg) skewY(-20deg);
+    }
+  
+    71% {
+      transform: skewX(10deg) skewY(-10deg);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 1600px){
+    .Animated-tital h3 {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: left;
+    }
+    
+    .Animated-tital h2 {
+        font-size: 48px;
+        text-align: left;
+        line-height: 52px;
+    }
+    
+    .Animated-tital ul {
+        gap: 10px;
+        padding: 8px 0px 20px 0px;
+    }
+    
+    .Animated-btn-box button {
+        padding: 8px;
+    }
+    
+    .Animated-tital ul li svg {
+        width: 18px;
+        height: 18px;
+    }
+    
+    li {}
+    
+    .Animated-tital ul li {
+        align-items: center;
+    }
+    
+    .header-ul ul li {
+        font-size: 14px;
+    }
+  }
+  
+  
+  
+
+    
+    
+  @media screen and (max-width: 1440px){
+
+
+    
     .Animated-tital h3 {
         font-size: 35px;
         text-align: left;
     }
-    
     .Animated-tital h2 {
         font-size: 38px;
         line-height: 25px;
@@ -292,6 +479,7 @@ body{
     
     .Animated-tital ul {
         padding: 8px 0px 10px 0px;
+        gap: 5px;
     }
     
     .Animated-btn-box {
@@ -299,3 +487,179 @@ body{
     }
 }
 
+
+@media screen and (max-width: 1024px){
+    .Animated-tital h3 {
+        font-size: 25px;
+    }
+    
+    .Animated-tital h2 {
+        font-size: 34px;
+    }
+    
+    .Animated-tital ul li {
+        font-size: 12px;
+        line-height: 27px;
+    }
+    
+    .Animated-tital ul li svg {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .Animated-btn-box button {
+        width: 28%;
+        padding: 8px;
+        font-size: 10px;
+    }
+    
+    .header-ul ul li {
+        font-size: 12px;
+    }
+    
+    .header-ul ul {
+        gap: 30px;
+    }
+    
+    .header-logo {
+        width: 15%;
+    }
+    
+    .contunir {
+        width: 85%;
+        top: 14%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .Animated-tital h3 {
+        font-size: 25px;
+    }
+    
+    .Animated-tital h2 {
+        font-size: 34px;
+    }
+    
+    .Animated-tital ul li {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    header {
+        padding: 2% 4%;
+    }
+    .Animated-tital ul li svg {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .Animated-btn-box button {
+        width: 28%;
+        padding: 8px;
+        font-size: 10px;
+    }
+    
+    .header-ul ul li {
+        font-size: 12px;
+    }
+    
+    .header-ul ul {
+        gap: 30px;
+    }
+    
+    .header-logo {
+        width: 15%;
+    }
+    
+    .contunir {
+        width: 85%;
+        top: 14%;
+    }
+    
+    .play img {
+        height: 100%;
+    }
+    
+    .contunir {
+        width: 100%;
+        top: 16%;
+    }
+    
+    .Animated-tital h2 {
+        font-size: 30px;
+    }
+    
+    .Animated-tital h3 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    
+    .Animated-btn-box button {
+        padding: 5px;
+        font-size: 8px;
+        width: 24%;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .Animated-tital {
+        width: 45%;
+    }
+    
+    .play img {
+        height: 70%;
+        object-fit: contain;
+    }
+    
+    .badal img {
+        height: 55%;
+    }
+    
+    .contunir {
+        width: 100%;
+        top: 32%;
+    }
+    
+    .Animated-btn-box button {
+        width: 40%;
+    }
+    
+    .Animated-tital h2 {
+        font-size: 28px;
+    }
+    
+    .Animated-tital h3 {
+        font-size: 20px;
+    }
+    
+    .Animated-tital ul li {
+        line-height: 20px;
+    }
+    header {
+        padding: 4% 4%;
+    }
+    
+    .header-logo {
+        width: 28%;
+    }
+    
+    .header-ul ul {
+        gap: 20px;
+    }
+    
+    .header-ul ul li {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .Animated-tital {
+        width: 58%;
+    }
+
+    .contunir {
+        width: 100%;
+        top: 24%;
+    }
+}
