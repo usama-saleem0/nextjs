@@ -102,6 +102,7 @@ header {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
+    cursor: pointer;
     line-height: 21.647px; /* 135.294% */
     text-transform: uppercase;
 }
@@ -161,6 +162,7 @@ header {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
+    cursor: pointer;
     line-height: 32px; /* 177.778% */
 }
 
