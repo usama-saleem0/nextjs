@@ -30,17 +30,6 @@ export default function Home() {
         <img src="/images/badalgo.png" alt="Description of the image" />
         <img src="/images/badalgo.png" alt="Description of the image" />
         <img src="/images/badalgo.png" alt="Description of the image" />
-        {/* <img src="/images/badal2.png" alt="Description of the image" />
-        <img src="/images/badal.png" alt="Description of the image" />
-        <img src="/images/badal2.png" alt="Description of the image" />
-        <img src="/images/badal.png" alt="Description of the image" />
-        <img src="/images/badal2.png" alt="Description of the image" />
-        <img src="/images/badal.png" alt="Description of the image" />
-        <img src="/images/badal2.png" alt="Description of the image" />
-        <img src="/images/badal.png" alt="Description of the image" />
-        <img src="/images/badal2.png" alt="Description of the image" /> */}
-        
-
         </div>
         <div className='contunir'>
             <div className='Animated-tital'>
